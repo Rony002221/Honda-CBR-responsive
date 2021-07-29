@@ -25,6 +25,7 @@ body{
     padding: 0.8% 7%;
 }
 
+
 /*.................Feture Bike Section...................*/
 #feture_bike_section img{
     width: 90%;
@@ -37,6 +38,7 @@ body{
     font-weight: 500;
 }
 
+
 /*..................Client Section.....................*/
 .cardImage img{
     width: 60%;
@@ -48,10 +50,12 @@ body{
     color: #E76F51;
 }
 
+
 /*..................Question Answer Section..............*/
 .question_answer_text span{
     color: #E76F51
 }
+
 
 /*..................Bonus Section........................*/
 .specification_image img{
