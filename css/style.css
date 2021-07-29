@@ -5,3 +5,22 @@
 
 /**************Custom Style***************/
 
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+/*................Header Section........................*/
+#Header_Section{
+    background-color: #264653;
+}
+.header_image img{
+
+    width: 90%;
+}
+.header_text .btn{
+    background-color: #E76F51;
+    color: aliceblue;
+    padding: 0.8% 7%;
+}
