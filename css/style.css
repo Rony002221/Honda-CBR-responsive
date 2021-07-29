@@ -65,3 +65,11 @@ body{
 .bike_details>h5{
     color: red;
 }
+
+/*................footer Section............................*/
+.footer{
+    background-color: #0B0D17;
+}
+.footer_nav li a{
+    color: aliceblue !important;
+}
