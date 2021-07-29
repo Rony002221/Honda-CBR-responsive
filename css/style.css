@@ -36,3 +36,14 @@ body{
     color: #E76F51;
     font-weight: 500;
 }
+
+/*..................Client Section.....................*/
+.cardImage img{
+    width: 60%;
+}
+.rating i{
+    color: #E76F51 ;
+}
+.feture_text span{
+    color: #E76F51;
+}
