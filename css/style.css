@@ -24,3 +24,15 @@ body{
     color: aliceblue;
     padding: 0.8% 7%;
 }
+
+/*.................Feture Bike Section...................*/
+#feture_bike_section img{
+    width: 90%;
+}
+#feture_bike_section .grey_img{
+    filter: grayscale(1);
+}
+.feture_text p{
+    color: #E76F51;
+    font-weight: 500;
+}
