@@ -28,7 +28,44 @@
                     <p class="mt-4">Amet minim mollit non deserunt ullamco est sit aliqua 
                         dolor do amet sint. Velit officia consequat duis enim velit 
                         mollit. Exercitation veniam consequat sunt nostrud amet</p>
-                    <button class="btn">Purchase</button>
+                    <!-- .........Modal Button ............... -->
+                    <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                        Purchase
+                      </button>
+  
+                      <!--.......... Modal................. -->
+                      <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title text-dark" id="staticBackdropLabel">Details About This Bike</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p class="text-dark">
+
+                                    Brand : Honda
+                                    <br>
+                                    Bike Name : Honda CBR300R
+                                    <br>
+                                    Displacement (cc) : 286 cc
+                                    <br>
+                                    Starting Method : Self Start Only
+                                    <br>
+                                    Gears : 6-Speed
+                                    <br>
+                                    Oil Capacity (Liter) : 13 L
+                                    <br><hr class="text-primary"><br>
+                                    <h2 class="text-danger">Price : TK 450,000</h2>
+                                </p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn ">Buy Now</button>
+                              <button type="button" class="btn" data-bs-dismiss="modal">Close</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                 </div>
                 </div>
                 <div class="col-lg-6 col-md-6 header_image p-5">
@@ -114,7 +151,7 @@
                 <div class="col-lg-4 col-md-4 p-4">
                     <div class="card text-center">
                         <div class="cardImage p-4">
-                            <img src="./img/user-1.png"  alt="...">
+                            <img src="./img/user-3.png"  alt="...">
                         </div>
                         <div class="card-body">
                             <p class="card-text text-muted">Slate helps you see how many more days you need to work to reach your financial 
@@ -203,13 +240,59 @@
                             </div>
                           </div>
                       </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--..................................................................-->
+    <!--............................Bonus Section.........................-->
+    <!--...................................................................-->
+    <section id="specification_Section">
+        <div class="specification">
+
+            <h1 class="text-center text-dark mt-5">SPECIFICATIONS</h1>
+            <div class="row container">
+
+                <div class="col-lg-6 col-md-6 p-5 specification_image">
+                    <img src="./img/cbr300.jpg" alt="">
+                </div>
+                <div class="col-lg-6 col-md-6 p-3 mt-5 bike_details">
+
+                    <h3 class="text-danger">Model : CBR300R</h3>
+                    <hr>
+                    <h5>Engine Type</h5>
+                    <p>286cc liquid-cooled single-cylinder four-stroke</p>
+                    <hr>
+                    <h5>Bore And Stroke</h5>
+                    <p>76mm x 63mm</p>
+                    <hr>
+                    <h5>Induction</h5>
+                    <p>PGM-FI, 38mm throttle body</p>
+                    <hr>
+                    <h5>Ignition</h5>
+                    <p>Computer-controlled digital transistorized with electronic advance</p>
+                    <hr>
+                    <h5>Compression Ratio</h5>
+                    <p>10.7:1</p>
+                    
+
 
                 </div>
             </div>
-
         </div>
 
     </section>
+
+
+
+
+
+
+
+
+
 
     <!--bootstarp js file-->
     <script src="./js/bootstrap.min.js"  ></script>

@@ -52,3 +52,12 @@ body{
 .question_answer_text span{
     color: #E76F51
 }
+
+/*..................Bonus Section........................*/
+.specification_image img{
+    width: 100%;
+}
+
+.bike_details>h5{
+    color: red;
+}
